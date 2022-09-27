@@ -1,0 +1,59 @@
+.landingPage {
+    background-color: black;
+    height: 100vh;
+}
+
+.logo {
+    width: 120px;
+    height: 20px;
+    margin-bottom: 15px;
+}
+
+.landingPage > div {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.landingPage > div > h1 {
+    color: var(--white);
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.landingPage > div > span {
+    color: var(--white);
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 150px;
+}
+
+.illustration {
+    width: 80vw;
+    margin-top: 40px;
+}
+
+@media (min-width: 700px) {
+    
+    main {
+        display: flex;
+    }
+
+    .landingPage > div {
+        width: 20vw;
+        margin: auto 0 auto 20%; 
+    }
+
+    figure {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .illustration {
+        width: 95%;
+    }
+}

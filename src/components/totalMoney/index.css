@@ -1,0 +1,35 @@
+.totalMoney {
+    width: 85vw;
+    margin: 10px auto;
+    border: 1px solid #E9ECEF;
+    border-radius: 4px;
+}
+
+.totalMoney > p {
+    color: var(--primary-color);
+}
+
+@media (min-width: 700px) {
+
+    .totalMoney {
+        height: 96px;
+        width: 363px;
+        margin-top: 16px;
+    }
+
+    .totalMoney > h2 {
+        padding: 15px;
+    }
+
+    .totalMoney > span {
+        padding: 15px;
+    }
+
+    .totalMoney > p {
+        text-align: end;
+        padding-right: 15px;
+        position: relative;
+        bottom: 60%;
+    }
+
+}

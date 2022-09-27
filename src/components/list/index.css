@@ -1,0 +1,49 @@
+.filter > button {
+    margin: 0 5px;
+}
+
+.trasactions > h1 {
+    margin: 25px;
+}
+
+ul {
+    padding-top: 90px;
+    margin-top: 15px;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    overflow-y: auto;
+}
+
+@media (min-width: 700px) {
+
+    .trasactions {
+        width: 560px;
+        margin-left: 40px;
+    }
+
+    .filter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .filter > h2 {
+        padding: 0 100px 0 30px;
+        width: 260px;
+    }
+
+    ul {
+        width: 560px;
+        height: 40vh;
+        overflow-y: auto;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+
+}

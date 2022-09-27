@@ -1,0 +1,26 @@
+.btn1 {
+    padding: 13px 20px;
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: none;
+    border-radius: var(--radius8);
+    transition: 2s;
+}
+
+.btn1:hover {
+    background-color: var(--primary-color2);
+}
+
+.btn2 {
+    padding: 15px;
+    background-color: var(--grey2);
+    color: var(--grey3);
+    border: none;
+    border-radius: var(--radius8);
+    transition: 2s;
+}
+
+.btn2:hover {
+    background-color: var(--grey3);
+    color: var(--white);
+}

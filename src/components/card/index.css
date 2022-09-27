@@ -1,0 +1,44 @@
+.card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 90px;
+    width: 80%;
+    border: 1px solid var(--white);
+    transition: 1s;
+}
+
+.card:hover {
+    border: 1px solid #e9ecefae;
+    box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+}
+
+.cardType {
+    position:relative;
+}
+
+.statusEntrada {
+    height: 90px;
+    width: 4px;
+    background-color: #03B898;
+    border-radius: 8px 0 0 8px;
+}
+
+.statusSaida {
+    height: 90px;
+    width: 4px;
+    background-color: var(--grey2);
+    border-radius: 8px 0 0 8px;
+}
+
+.trash {
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+@media (min-width: 700px) {
+    
+    .card {
+        width: 90%;
+    }
+}

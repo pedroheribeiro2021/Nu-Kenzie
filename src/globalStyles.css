@@ -1,0 +1,20 @@
+.title3 {
+    font-size: var(--title3);
+    font-weight: var(--bold);
+}
+
+button {
+    cursor: pointer;
+}
+
+input {
+    border: 2px solid #f8f9fac1;
+    border-radius: 8px;
+    height: 38px;
+}
+
+select {
+    border: 2px solid #f8f9fac1;
+    border-radius: 8px;
+    height: 38px;
+}
